@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FBD8F4E28A3AB9F0095EB4C /* FYFToastAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FBD8F4D28A3AB9F0095EB4C /* FYFToastAlertViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,8 +23,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		DB43A877ED450D0D5EEC4300 /* Pods_FYFAlert_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87BFDD818EB5DF3423E9E177 /* Pods_FYFAlert_Example.framework */; };
-		E69BC402F15CEA96EED611EA /* Pods_FYFAlert_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEA6C8272FC2E0B4D8B3A80 /* Pods_FYFAlert_Tests.framework */; };
+		A8CAB8890F90733EAE2AD9EF /* Pods_FYFAlert_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C20D9FCE34B1142286B57B0C /* Pods_FYFAlert_Tests.framework */; };
+		F7CE288548436C09DAC35587 /* Pods_FYFAlert_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F377EFF059A7E9DFF18E01E /* Pods_FYFAlert_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		068C6FD1F2D8F490F11ACF45 /* Pods-FYFAlert_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYFAlert_Tests.release.xcconfig"; path = "Target Support Files/Pods-FYFAlert_Tests/Pods-FYFAlert_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0FBD8F4C28A3AB9F0095EB4C /* FYFToastAlertViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYFToastAlertViewController.h; sourceTree = "<group>"; };
+		0FBD8F4D28A3AB9F0095EB4C /* FYFToastAlertViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYFToastAlertViewController.m; sourceTree = "<group>"; };
+		1073209702491D9434138A4D /* Pods-FYFAlert_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYFAlert_Tests.release.xcconfig"; path = "Target Support Files/Pods-FYFAlert_Tests/Pods-FYFAlert_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1652710105391D5D86019612 /* Pods-FYFAlert_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYFAlert_Example.debug.xcconfig"; path = "Target Support Files/Pods-FYFAlert_Example/Pods-FYFAlert_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3DD25C362671559497A79EE4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1AFEE0E980EA87A4A3311076 /* Pods-FYFAlert_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYFAlert_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FYFAlert_Tests/Pods-FYFAlert_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3DD25C362671559497A79EE4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4F377EFF059A7E9DFF18E01E /* Pods_FYFAlert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYFAlert_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* FYFAlert_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYFAlert_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,14 +64,12 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		677132D856D47683D15EC49E /* FYFAlert.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FYFAlert.podspec; path = ../FYFAlert.podspec; sourceTree = "<group>"; };
+		677132D856D47683D15EC49E /* FYFAlert.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FYFAlert.podspec; path = ../FYFAlert.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85B163430DA71A26EB277ED3 /* Pods-FYFAlert_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYFAlert_Example.release.xcconfig"; path = "Target Support Files/Pods-FYFAlert_Example/Pods-FYFAlert_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		87BFDD818EB5DF3423E9E177 /* Pods_FYFAlert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYFAlert_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B01F264A9E5EC58C5988D793 /* Pods-FYFAlert_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYFAlert_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FYFAlert_Tests/Pods-FYFAlert_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D835F1C3797963E23E6C25DA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		FAEA6C8272FC2E0B4D8B3A80 /* Pods_FYFAlert_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYFAlert_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C20D9FCE34B1142286B57B0C /* Pods_FYFAlert_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYFAlert_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D835F1C3797963E23E6C25DA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +80,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				DB43A877ED450D0D5EEC4300 /* Pods_FYFAlert_Example.framework in Frameworks */,
+				F7CE288548436C09DAC35587 /* Pods_FYFAlert_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +91,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				E69BC402F15CEA96EED611EA /* Pods_FYFAlert_Tests.framework in Frameworks */,
+				A8CAB8890F90733EAE2AD9EF /* Pods_FYFAlert_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +126,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				87BFDD818EB5DF3423E9E177 /* Pods_FYFAlert_Example.framework */,
-				FAEA6C8272FC2E0B4D8B3A80 /* Pods_FYFAlert_Tests.framework */,
+				4F377EFF059A7E9DFF18E01E /* Pods_FYFAlert_Example.framework */,
+				C20D9FCE34B1142286B57B0C /* Pods_FYFAlert_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -137,6 +140,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* FYFViewController.h */,
 				6003F5A6195388D20070C39A /* FYFViewController.m */,
+				0FBD8F4C28A3AB9F0095EB4C /* FYFToastAlertViewController.h */,
+				0FBD8F4D28A3AB9F0095EB4C /* FYFToastAlertViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -190,10 +195,9 @@
 			children = (
 				1652710105391D5D86019612 /* Pods-FYFAlert_Example.debug.xcconfig */,
 				85B163430DA71A26EB277ED3 /* Pods-FYFAlert_Example.release.xcconfig */,
-				B01F264A9E5EC58C5988D793 /* Pods-FYFAlert_Tests.debug.xcconfig */,
-				068C6FD1F2D8F490F11ACF45 /* Pods-FYFAlert_Tests.release.xcconfig */,
+				1AFEE0E980EA87A4A3311076 /* Pods-FYFAlert_Tests.debug.xcconfig */,
+				1073209702491D9434138A4D /* Pods-FYFAlert_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +212,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				458FDC5B27B3AF58096A0C5E /* [CP] Embed Pods Frameworks */,
+				FD1B9864FF0EA5C88E1D44BB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -223,7 +227,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "FYFAlert_Tests" */;
 			buildPhases = (
-				0143BDC22E1F07779C6B1EE2 /* [CP] Check Pods Manifest.lock */,
+				DD6A359C38EB2877C3C9DBB7 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -258,6 +262,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -295,28 +300,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0143BDC22E1F07779C6B1EE2 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FYFAlert_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2A6B1B2661113F4F47E489CC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -339,7 +322,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		458FDC5B27B3AF58096A0C5E /* [CP] Embed Pods Frameworks */ = {
+		DD6A359C38EB2877C3C9DBB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FYFAlert_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD1B9864FF0EA5C88E1D44BB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -347,10 +352,16 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-FYFAlert_Example/Pods-FYFAlert_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FYFAlert/FYFAlert.framework",
+				"${BUILT_PRODUCTS_DIR}/FYFCategory/FYFCategory.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FYFAlert.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FYFCategory.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -367,6 +378,7 @@
 				6003F59E195388D20070C39A /* FYFAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* FYFViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				0FBD8F4E28A3AB9F0095EB4C /* FYFToastAlertViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +509,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FYFAlert/FYFAlert-Prefix.pch";
 				INFOPLIST_FILE = "FYFAlert/FYFAlert-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,6 +526,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FYFAlert/FYFAlert-Prefix.pch";
 				INFOPLIST_FILE = "FYFAlert/FYFAlert-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -523,7 +537,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B01F264A9E5EC58C5988D793 /* Pods-FYFAlert_Tests.debug.xcconfig */;
+			baseConfigurationReference = 1AFEE0E980EA87A4A3311076 /* Pods-FYFAlert_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -548,7 +562,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 068C6FD1F2D8F490F11ACF45 /* Pods-FYFAlert_Tests.release.xcconfig */;
+			baseConfigurationReference = 1073209702491D9434138A4D /* Pods-FYFAlert_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

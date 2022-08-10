@@ -7,6 +7,7 @@
 //
 
 #import "FYFViewController.h"
+#import "FYFToastAlertViewController.h"
 
 @interface FYFViewController ()
 
@@ -17,7 +18,19 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    UIButton *testAlertAndToastButton = [[UIButton alloc] initWithFrame:CGRectMake(100, 300, 200, 40)];
+    [testAlertAndToastButton setTitle:@"AlertAndToastAndPop" forState:UIControlStateNormal];
+    [testAlertAndToastButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [testAlertAndToastButton addTarget:self action:@selector(testAlertAndToast) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:testAlertAndToastButton];
+}
+
+- (void)testAlertAndToast {
+    FYFToastAlertViewController *vc = [[FYFToastAlertViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)didReceiveMemoryWarning

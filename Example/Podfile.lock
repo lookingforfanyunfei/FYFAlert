@@ -1,0 +1,35 @@
+PODS:
+  - FYFAlert (0.1.0):
+    - FYFCategory
+    - FYFDefines
+    - Masonry
+    - MBProgressHUD
+  - FYFCategory (0.1.5)
+  - FYFDefines (0.2.1)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+
+DEPENDENCIES:
+  - FYFAlert (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FYFCategory
+    - FYFDefines
+    - Masonry
+    - MBProgressHUD
+
+EXTERNAL SOURCES:
+  FYFAlert:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FYFAlert: e9adba600317f313a7834411503fe0e39e114117
+  FYFCategory: 38302e7ca717ac37570e668a3767fb486a50b20d
+  FYFDefines: 122e7f6f7de75e5bf0cb125fbedd9dade8749763
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+
+PODFILE CHECKSUM: 6cf3e92804b9109234b6e308a863e7d75bd83813
+
+COCOAPODS: 1.11.3

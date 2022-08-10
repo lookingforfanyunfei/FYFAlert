@@ -1,0 +1,6 @@
+framework module FYFCategory {
+  umbrella header "FYFCategory-umbrella.h"
+
+  export *
+  module * { export * }
+}

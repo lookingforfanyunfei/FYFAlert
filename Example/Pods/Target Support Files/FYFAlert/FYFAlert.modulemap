@@ -1,0 +1,6 @@
+framework module FYFAlert {
+  umbrella header "FYFAlert-umbrella.h"
+
+  export *
+  module * { export * }
+}
