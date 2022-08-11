@@ -4,8 +4,8 @@ PODS:
     - FYFDefines
     - Masonry
     - MBProgressHUD
-  - FYFCategory (0.1.5)
-  - FYFDefines (0.2.1)
+  - FYFCategory (0.1.6)
+  - FYFDefines (0.2.2)
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
 
@@ -25,8 +25,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FYFAlert: e9adba600317f313a7834411503fe0e39e114117
-  FYFCategory: 38302e7ca717ac37570e668a3767fb486a50b20d
-  FYFDefines: 122e7f6f7de75e5bf0cb125fbedd9dade8749763
+  FYFCategory: fe5653b3ba7b23c4c32a0dcb52c864b8734b8a1c
+  FYFDefines: 7793804a2d6d8519c4af18e73d8980c392e4bacf
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
 

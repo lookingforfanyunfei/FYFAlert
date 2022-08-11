@@ -88,7 +88,7 @@
     self.frame = fyf_CGRectFlatted(frame);
 }
 
-- (CGFloat)Fyf_height {
+- (CGFloat)fyf_height {
     return self.frame.size.height;
 }
 
