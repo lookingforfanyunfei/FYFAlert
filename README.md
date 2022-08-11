@@ -27,6 +27,3 @@ pod 'FYFAlert'
 ## License
 
 FYFAlert is available under the MIT license. See the LICENSE file for more info.
-
-
-![屏幕录制2022-08-11-08 42 05 (1)](https://user-images.githubusercontent.com/14822199/184063816-f752ed17-4e3e-4338-af0f-c3fca929f916.gif)
